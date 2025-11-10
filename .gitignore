@@ -1,6 +1,9 @@
 # development files & folder
 dev/
 
+# script files & folder
+script/
+
 # private stuff temporarily stored in temp folder
 temp/
 
