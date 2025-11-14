@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-This package provides the Python module TimeHelper for easy conversion and handling of time values.
+This package provides the Python module and TimeHelper class for easy conversion and handling of time values.
 
 Python’s datetime and timestamp objects come with various methods to deal with time values. However, often additional functionality is needed, especially when dealing with databases, where time values are stored as nanoseconds since epoch (QuestDB , InfluxDB) or as string representations of a datetime (MariaDB, MySQL). Furthermore, time values need to be converted between the UTC values stored in a database and the timezone values obtained or displayed in an application.
 
