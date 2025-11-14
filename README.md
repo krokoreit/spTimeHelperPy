@@ -153,7 +153,7 @@ an optional argument for conversion of strTZ strings. When switching from daylig
 
 #### The datetime Methods<a id="datetime-methods"></a>  
 
-##### get_dtTZ() Method<a id="get_dtTZ-method"></a>
+#### get_dtTZ() Method<a id="get_dtTZ-method"></a>
 ```py
   get_dtTZ()
 ```
@@ -163,7 +163,7 @@ Returns the target timezone datetime, aka now.
 </br>
 
 
-##### get_dtTZ_from_dtUTC() Method<a id="get_dtTZ_from_dtUTC-method"></a>
+#### get_dtTZ_from_dtUTC() Method<a id="get_dtTZ_from_dtUTC-method"></a>
 ```py
   get_dtTZ_from_dtUTC(dtUTC)
 ```
@@ -173,7 +173,7 @@ Returns a target timezone datetime from a UTC datetime.
 </br>
 
 
-##### get_dtTZ_from_nsse() Method<a id="get_dtTZ_from_nsse-method"></a>
+#### get_dtTZ_from_nsse() Method<a id="get_dtTZ_from_nsse-method"></a>
 ```py
   get_dtTZ_from_nsse(nsse)
 ```
@@ -183,7 +183,7 @@ Returns a target timezone datetime from nanoseconds since epoch.
 </br>
 
 
-##### get_dtTZ_from_strTZ() Method<a id="get_dtTZ_from_strTZ-method"></a>
+#### get_dtTZ_from_strTZ() Method<a id="get_dtTZ_from_strTZ-method"></a>
 ```py
   get_dtTZ_from_strTZ(strTZ, time_string_format=None, second_hour=False)
 ```
@@ -193,7 +193,7 @@ Returns a target timezone datetime from a target timezone datetime string. Use t
 </br>
 
 
-##### get_dtTZ_from_strUTC() Method<a id="get_dtTZ_from_strUTC-method"></a>
+#### get_dtTZ_from_strUTC() Method<a id="get_dtTZ_from_strUTC-method"></a>
 ```py
   get_dtTZ_from_strUTC(strUTC, time_string_format=None)
 ```
@@ -203,7 +203,7 @@ Returns a target timezone datetime from a UTC datetime string. Use the optional 
 </br>
 
 
-##### get_dtTZ_from_ts() Method<a id="get_dtTZ_from_ts-method"></a>
+#### get_dtTZ_from_ts() Method<a id="get_dtTZ_from_ts-method"></a>
 ```py
   get_dtTZ_from_ts(ts)
 ```
@@ -213,7 +213,7 @@ Returns a target timezone datetime from a timestamp.
 </br>
 
 
-##### get_dtUTC() Method<a id="get_dtUTC-method"></a>
+#### get_dtUTC() Method<a id="get_dtUTC-method"></a>
 ```py
   get_dtUTC()
 ```
@@ -223,7 +223,7 @@ Returns the current UTC datetime, aka now.
 </br>
 
 
-##### get_dtUTC_from_dtTZ() Method<a id="get_dtUTC_from_dtTZ-method"></a>
+#### get_dtUTC_from_dtTZ() Method<a id="get_dtUTC_from_dtTZ-method"></a>
 ```py
   get_dtUTC_from_dtTZ(dtTZ)
 ```
@@ -233,7 +233,7 @@ Returns a UTC datetime from an target timezone datetime.
 </br>
 
 
-##### get_dtUTC_from_nsse() Method<a id="get_dtUTC_from_nsse-method"></a>
+#### get_dtUTC_from_nsse() Method<a id="get_dtUTC_from_nsse-method"></a>
 ```py
   get_dtUTC_from_nsse(nsse)
 ```
@@ -243,7 +243,7 @@ Returns a UTC datetime from nanoseconds since epoch.
 </br>
 
 
-##### get_dtUTC_from_strTZ() Method<a id="get_dtUTC_from_strTZ-method"></a>
+#### get_dtUTC_from_strTZ() Method<a id="get_dtUTC_from_strTZ-method"></a>
 ```py
   get_dtUTC_from_strTZ(strTZ, time_string_format=None, second_hour=False)
 ```
@@ -253,7 +253,7 @@ Returns a UTC datetime from a target timezone datetime string. Use the optional 
 </br>
 
 
-##### get_dtUTC_from_strUTC() Method<a id="get_dtUTC_from_strUTC-method"></a>
+#### get_dtUTC_from_strUTC() Method<a id="get_dtUTC_from_strUTC-method"></a>
 ```py
   get_dtUTC_from_strUTC(strUTC, time_string_format=None)
 ```
@@ -263,7 +263,7 @@ Returns a UTC datetime from a UTC datetime string. Use the optional time_string_
 </br>
 
 
-##### get_dtUTC_from_ts() Method<a id="get_dtUTC_from_ts-method"></a>
+#### get_dtUTC_from_ts() Method<a id="get_dtUTC_from_ts-method"></a>
 ```py
   get_dtUTC_from_ts(ts)
 ```
@@ -275,7 +275,7 @@ Returns a UTC datetime from a timestamp.
 
 #### The Nanoseconds since Epoch Methods<a id="nanoseconds-since-epoch-methods"></a>  
 
-##### get_nsse() Method<a id="get_nsse-method"></a>
+#### get_nsse() Method<a id="get_nsse-method"></a>
 ```py
   get_nsse()
 ```
@@ -285,7 +285,7 @@ Returns the current nanoseconds since epoch.
 </br>
 
 
-##### get_nsse_from_dtTZ() Method<a id="get_nsse_from_dtTZ-method"></a>
+#### get_nsse_from_dtTZ() Method<a id="get_nsse_from_dtTZ-method"></a>
 ```py
   get_nsse_from_dtTZ(dtTZ)
 ```
@@ -295,7 +295,7 @@ Returns nanoseconds since epoch from an target timezone datetime.
 </br>
 
 
-##### get_nsse_from_dtUTC() Method<a id="get_nsse_from_dtUTC-method"></a>
+#### get_nsse_from_dtUTC() Method<a id="get_nsse_from_dtUTC-method"></a>
 ```py
   get_nsse_from_dtUTC(dtUTC)
 ```
@@ -305,7 +305,7 @@ Returns nanoseconds since epoch from a UTC datetime.
 </br>
 
 
-##### get_nsse_from_strTZ() Method<a id="get_nsse_from_strTZ-method"></a>
+#### get_nsse_from_strTZ() Method<a id="get_nsse_from_strTZ-method"></a>
 ```py
   get_nsse_from_strTZ(strTZ, time_string_format=None, second_hour=False)
 ```
@@ -314,7 +314,7 @@ Returns nanoseconds since epoch from an timezone datetime string. Use the option
 <div style="text-align: right"><a href="#methods">&#8679; back up to list of methods</a></div>
 </br>
 
-##### get_nsse_from_strUTC() Method<a id="get_nsse_from_strUTC-method"></a>
+#### get_nsse_from_strUTC() Method<a id="get_nsse_from_strUTC-method"></a>
 ```py
   get_nsse_from_strUTC(strUTC, time_string_format=None)
 ```
@@ -324,7 +324,7 @@ Returns nanoseconds since epoch from a UTC datetime string. Use the optional tim
 </br>
 
 
-##### get_nsse_from_text() Method<a id="get_nsse_from_text-method"></a>
+#### get_nsse_from_text() Method<a id="get_nsse_from_text-method"></a>
 ```py
   get_nsse_from_text(from_text, time_string_format=None)
 ```
@@ -333,7 +333,7 @@ Returns nanoseconds since epoch from a text given as either a UTC datetime strin
 <div style="text-align: right"><a href="#methods">&#8679; back up to list of methods</a></div>
 </br>
 
-##### get_nsse_from_ts() Method<a id="get_nsse_from_ts-method"></a>
+#### get_nsse_from_ts() Method<a id="get_nsse_from_ts-method"></a>
 ```py
   get_nsse_from_ts(ts)
 ```
@@ -345,7 +345,7 @@ Returns nanoseconds since epoch from a timestamp.
 
 #### The datetime string Methods<a id="datetime-string-methods"></a>  
 
-##### get_strTZ_from_dtTZ() Method<a id="get_strTZ_from_dtTZ-method"></a>
+#### get_strTZ_from_dtTZ() Method<a id="get_strTZ_from_dtTZ-method"></a>
 ```py
   get_strTZ_from_dtTZ(dtTZ, time_string_format=None)
 ```
@@ -355,7 +355,7 @@ Returns a target timezone datetime string from a target timezone datetime. Use t
 </br>
 
 
-##### get_strTZ_from_dtUTC() Method<a id="get_strTZ_from_dtUTC-method"></a>
+#### get_strTZ_from_dtUTC() Method<a id="get_strTZ_from_dtUTC-method"></a>
 ```py
   get_strTZ_from_dtUTC(dtUTC, time_string_format=None)
 ```
@@ -365,7 +365,7 @@ Returns a target timezone datetime string from a UTC datetime. Use the optional 
 </br>
 
 
-##### get_strTZ_from_nsse() Method<a id="get_strTZ_from_nsse-method"></a>
+#### get_strTZ_from_nsse() Method<a id="get_strTZ_from_nsse-method"></a>
 ```py
   get_strTZ_from_nsse(nsse, time_string_format=None)
 ```
@@ -375,7 +375,7 @@ Returns a target timezone datetime string from nanoseconds since epoch. Use the 
 </br>
 
 
-##### get_strTZ_from_strUTC() Method<a id="get_strTZ_from_strUTC-method"></a>
+#### get_strTZ_from_strUTC() Method<a id="get_strTZ_from_strUTC-method"></a>
 ```py
   get_strTZ_from_strUTC(strUTC, time_string_format_UTC=None, time_string_format_TZ=None)
 ```
@@ -385,7 +385,7 @@ Returns a target timezone datetime string from a UTC datetime string. Use the op
 </br>
 
 
-##### get_strTZ_from_ts() Method<a id="get_strTZ_from_ts-method"></a>
+#### get_strTZ_from_ts() Method<a id="get_strTZ_from_ts-method"></a>
 ```py
   get_strTZ_from_ts(ts, time_string_format=None)
 ```
@@ -395,7 +395,7 @@ Returns a target timezone datetime string from a timestamp. Use the optional tim
 </br>
 
 
-##### get_strUTC_from_dtTZ() Method<a id="get_strUTC_from_dtTZ-method"></a>
+#### get_strUTC_from_dtTZ() Method<a id="get_strUTC_from_dtTZ-method"></a>
 ```py
   get_strUTC_from_dtTZ(dtTZ, time_string_format=None)
 ```
@@ -405,7 +405,7 @@ Returns a UTC datetime string from a target timezone datetime. Use the optional 
 </br>
 
 
-##### get_strUTC_from_dtUTC() Method<a id="get_strUTC_from_dtUTC-method"></a>
+#### get_strUTC_from_dtUTC() Method<a id="get_strUTC_from_dtUTC-method"></a>
 ```py
   get_strUTC_from_dtUTC(dtUTC, time_string_format=None)
 ```
@@ -415,7 +415,7 @@ Returns a UTC datetime string from a UTC datetime. Use the optional time_string_
 </br>
 
 
-##### get_strUTC_from_nsse() Method<a id="get_strUTC_from_nsse-method"></a>
+#### get_strUTC_from_nsse() Method<a id="get_strUTC_from_nsse-method"></a>
 ```py
   get_strUTC_from_nsse(nsse, time_string_format=None)
 ```
@@ -425,7 +425,7 @@ Returns a UTC datetime string from nanoseconds since epoch. Use the optional tim
 </br>
 
 
-##### get_strUTC_from_strTZ() Method<a id="get_strUTC_from_strTZ-method"></a>
+#### get_strUTC_from_strTZ() Method<a id="get_strUTC_from_strTZ-method"></a>
 ```py
   get_strUTC_from_strTZ(strTZ, time_string_format_TZ=None, time_string_format_UTC=None, second_hour=False)
 ```
@@ -434,7 +434,7 @@ Returns a UTC timezone datetime string from a target timezone datetime string. U
 <div style="text-align: right"><a href="#methods">&#8679; back up to list of methods</a></div>
 </br>
 
-##### get_strUTC_from_ts() Method<a id="get_strUTC_from_ts-method"></a>
+#### get_strUTC_from_ts() Method<a id="get_strUTC_from_ts-method"></a>
 ```py
   get_strUTC_from_ts(ts, time_string_format=None)
 ```
@@ -446,7 +446,7 @@ Returns a UTC datetime string from a timestamp. Use the optional time_string_for
 
 #### The timestamp Methods<a id="timestamp-methods"></a>  
 
-##### get_ts_from_dtTZ() Method<a id="get_ts_from_dtTZ-method"></a>
+#### get_ts_from_dtTZ() Method<a id="get_ts_from_dtTZ-method"></a>
 ```py
   get_ts_from_dtTZ(dtTZ)
 ```
@@ -456,7 +456,7 @@ Returns a timestamp from a target timezone datetime.
 </br>
 
 
-##### get_ts_from_dtUTC() Method<a id="get_ts_from_dtUTC-method"></a>
+#### get_ts_from_dtUTC() Method<a id="get_ts_from_dtUTC-method"></a>
 ```py
   get_ts_from_dtUTC(dtUTC)
 ```
@@ -466,7 +466,7 @@ Returns a timestamp from a UTC datetime.
 </br>
 
 
-##### get_ts_from_nsse() Method<a id="get_ts_from_nsse-method"></a>
+#### get_ts_from_nsse() Method<a id="get_ts_from_nsse-method"></a>
 ```py
   get_ts_from_nsse(nsse)
 ```
@@ -476,13 +476,13 @@ Returns a timestamp from nanoseconds since epoch.
 </br>
 
 
-##### get_ts_from_strTZ() Method<a id="get_ts_from_strTZ-method"></a>
+#### get_ts_from_strTZ() Method<a id="get_ts_from_strTZ-method"></a>
 ```py
   get_ts_from_strTZ(strTZ, time_string_format=None, second_hour=False)
 ```
 Returns a timestamp from a target timezone datetime string. Use the optional time_string_format argument to specify a format for converting the datetime string. If omitted or None, the default format of the TimeHelper object is used. For an ambiguous case when switching back to normal time in autumn (times for one hour occurring twice), use True for second_hour to convert into datetime for the second occurrence.
 
-##### get_ts_from_strUTC() Method<a id="get_ts_from_strUTC-method"></a>
+#### get_ts_from_strUTC() Method<a id="get_ts_from_strUTC-method"></a>
 ```py
   get_ts_from_strUTC(strUTC, time_string_format=None)
 ```
@@ -494,7 +494,7 @@ Returns a timestamp from a UTC datetime string. Use the optional time_string_for
 
 #### The ZoneInfo Methods<a id="zoneinfo-methods"></a>  
 
-##### get_tz_zoneinfo() Method<a id="get_tz_zoneinfo-method"></a>
+#### get_tz_zoneinfo() Method<a id="get_tz_zoneinfo-method"></a>
 ```py
   get_tz_zoneinfo()
 ```
@@ -504,7 +504,7 @@ Returns the ZoneInfo object for the target timezone.
 </br>
 
 
-##### get_tz_zone_name() Method<a id="get_tz_zone_name-method"></a>
+#### get_tz_zone_name() Method<a id="get_tz_zone_name-method"></a>
 ```py
   get_tz_zone_name()
 ```
@@ -514,7 +514,7 @@ Returns the name of the target timezone, e.g. ‘Europe/Berlin’.
 </br>
 
 
-##### get_tz_zone_abbreviations() Method<a id="get_tz_zone_abbreviations-method"></a>
+#### get_tz_zone_abbreviations() Method<a id="get_tz_zone_abbreviations-method"></a>
 ```py
   get_tz_zone_abbreviations()
 ```
@@ -524,7 +524,7 @@ Returns a tuple with abbreviations for the normal and daylight saving periods of
 </br>
 
 
-##### get_utc_zoneinfo() Method<a id="get_utc_zoneinfo-method"></a>
+#### get_utc_zoneinfo() Method<a id="get_utc_zoneinfo-method"></a>
 ```py
   get_utc_zoneinfo()
 ```
