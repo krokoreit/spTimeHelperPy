@@ -498,7 +498,7 @@ Returns a timestamp from a UTC datetime string. Use the optional time_string_for
 ```py
   get_tz_zoneinfo()
 ```
-Returns the ZoneInfo object for target timezone.
+Returns the ZoneInfo object for the target timezone.
 
 <div style="text-align: right"><a href="#methods">&#8679; back up to list of methods</a></div>
 </br>
@@ -508,7 +508,7 @@ Returns the ZoneInfo object for target timezone.
 ```py
   get_tz_zone_name()
 ```
-Returns the name of target timezone, e.g. ‘Europe/Berlin’.
+Returns the name of the target timezone, e.g. ‘Europe/Berlin’.
 
 <div style="text-align: right"><a href="#methods">&#8679; back up to list of methods</a></div>
 </br>
@@ -518,7 +518,7 @@ Returns the name of target timezone, e.g. ‘Europe/Berlin’.
 ```py
   get_tz_zone_abbreviations()
 ```
-Returns a tuple with abbreviations for normal and daylight saving periods of target timezone, e.g. ('CET', 'CEST').
+Returns a tuple with abbreviations for the normal and daylight saving periods of the target timezone, e.g. ('CET', 'CEST').
 
 <div style="text-align: right"><a href="#methods">&#8679; back up to list of methods</a></div>
 </br>
