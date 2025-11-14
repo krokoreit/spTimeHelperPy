@@ -43,6 +43,7 @@ dev03 = "py ./dev/dev03.py"
 xmpl01 = "py ./examples/example01.py"
 xmpl02 = "py ./examples/example02.py"
 xmpl03 = "py ./examples/example03.py"
+xmpl04 = "py ./examples/example04.py"
 
 [tool.coverage.run]
 source_pkgs = ["spTimeHelperPy", "tests"]
