@@ -2,7 +2,7 @@
 dev/
 
 # script files & folder
-script/
+scripts/
 
 # private stuff temporarily stored in temp folder
 temp/
