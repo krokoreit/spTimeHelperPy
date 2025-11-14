@@ -24,7 +24,7 @@ Especially for time scale databases and having data stored in a text (or CSV) fi
 
 Additional methods cover getting the target timezone’s ZoneInfo object, its name (e.g. ‘Europe/Berlin’) or a tuple with its abbreviations, e.g. ('CET', 'CEST').
 
-For more details, see the API reference below and the demonstration code in the files of the examples folder.
+For more details, see the API reference below and the demonstration code in the four files of the examples folder.
 
 Enjoy
 
