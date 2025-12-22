@@ -10,8 +10,11 @@ temp/
 # using .hatch folder for local virtual env for VS Code to find it
 .hatch/
 
+# spPackageHandlerPy
+.make_editable_pkg.json
+
 # Byte-compiled / optimized / DLL files
-__pycache__/
+**/__pycache__/
 *.py[codz]
 *$py.class
 

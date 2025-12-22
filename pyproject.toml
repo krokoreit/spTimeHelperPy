@@ -1,5 +1,9 @@
 [build-system]
-requires = ["hatchling", "hatch-vcs"]
+requires = [
+  "hatchling",
+  "hatch-bump-version",
+  "hatch-vcs"
+]
 build-backend = "hatchling.build"
 
 [project]
@@ -44,6 +48,13 @@ xmpl01 = "py ./examples/example01.py"
 xmpl02 = "py ./examples/example02.py"
 xmpl03 = "py ./examples/example03.py"
 xmpl04 = "py ./examples/example04.py"
+
+[tool.hatch.build.hooks.bump_version]
+#nothing for this plugin 
+
+[tool.hatch.publish.pre_index]
+#repo="test"
+#pw=new
 
 [tool.coverage.run]
 source_pkgs = ["spTimeHelperPy", "tests"]
