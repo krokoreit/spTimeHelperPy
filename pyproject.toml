@@ -1,7 +1,7 @@
 [build-system]
 requires = [
   "hatchling",
-  "hatch-bump-version@file://D:/Dev/Python/.gh.module_dev/hatch_bump_version",
+  "hatch-bump-version",
   "hatch-vcs"
 ]
 build-backend = "hatchling.build"
