@@ -2,7 +2,7 @@
 #
 #   TimeHelper class
 #
-#   object for .....
+#   A Python object for easy conversion and handling of time values.  
 #
 #   MIT License
 #
